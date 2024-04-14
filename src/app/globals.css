@@ -3,7 +3,8 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
+.radix-themes {
+  --default-font-family: var(--font-default);
 }
 
 @layer utilities {

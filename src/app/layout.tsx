@@ -1,11 +1,12 @@
 import type { Metadata } from "next";
-import { Poppins } from "next/font/google";
+import { Nunito } from "next/font/google";
 import "./globals.css";
 import { Theme } from "@radix-ui/themes";
 
-const font = Poppins({
+const font = Nunito({
   subsets: ["latin"],
-  weight: ["100", "200", "300", "400", "500", "600", "700"],
+  weight: ["200", "300", "400", "500", "600", "700"],
+  variable: "--font-default",
 });
 
 export const metadata: Metadata = {
